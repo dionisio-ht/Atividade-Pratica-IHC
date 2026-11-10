@@ -14,7 +14,7 @@ body {
 
 .topo-titulo {
   color: white;
-  font-size: 250%;   /* coloque o tamanho que quiser */
+  font-size: 200%;  
   margin: 0;
 }
 .quadrado-logo {
@@ -28,7 +28,11 @@ body {
 }
 
 .topo-logo {
-  width: 40px;   
+  width: 40px;
+}
+
+.banner_lol_logo {
+  filter: blur(2px) brightness(0.6); /* borrando e escurecendo a imagem para dar mais foco pro titulo */
 }
 
 /* Menu lateral */
@@ -151,6 +155,9 @@ body {
   line-height: 1;
   font-size: 20px;   /* aumente ou diminua este valor */
   text-align: justify;
+  line-height: 1.5;
+  font-family: Trebuchet MS;
+
 }
 
 /* Espaços reservados para imagens e textos ainda não adicionados */
@@ -164,4 +171,11 @@ body {
 
 .card p:empty {
   min-height: 60px;       /* card sem texto não fica achatado */
+}
+
+.graficos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
