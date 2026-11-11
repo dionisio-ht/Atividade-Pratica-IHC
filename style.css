@@ -179,3 +179,42 @@ body {
   margin-right: auto;
   width: 50%;
 }
+/* Botão de alto contraste */
+.botao-contraste {
+  margin-left: auto;          /* empurra o botão para a direita do topo */
+  padding: 8px 14px;
+  border: 3px solid white;
+  border-radius: 80px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+/* Modo alto contraste - preset contraste  */
+
+/* seleciona toda a parte visual e cria um novo
+ modelo com cores e design diferenetes*/
+body.alto-contraste {
+  background: #000;
+}
+body.alto-contraste .menu,
+body.alto-contraste .conteudo,
+body.alto-contraste .card,
+body.alto-contraste .menu a {
+  background: #000;
+  color: #fff;
+  border: 2px solid #ff0;
+}
+body.alto-contraste .menu a.ativo {
+  background: #ff0;
+  color: #000;
+}
+body.alto-contraste .topo-titulo,
+body.alto-contraste h2,
+body.alto-contraste strong {
+  color: #ff0;
+}
+body.alto-contraste .botao-contraste {
+  border-color: #ff0;
+  color: #ff0;
+}
